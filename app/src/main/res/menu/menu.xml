@@ -3,7 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="200"
+        android:orderInCategory="400"
         android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/total"
+        android:orderInCategory="200"
+        android:title="Total balance"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/participants"
+        android:orderInCategory="200"
+        android:title="Individual Contributions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contributions"
+        android:orderInCategory="200"
+        android:title="Donors"
         app:showAsAction="never" />
 </menu>
